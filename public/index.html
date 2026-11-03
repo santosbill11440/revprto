@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light" data-accent="sage" data-motion="full">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Putra Izhar Gumilar | Mahasiswa Sains Data</title>
+<meta name="description" content="Portofolio Putra Izhar Gumilar, mahasiswa semester satu Sains Data.">
+<script>try{var s=JSON.parse(localStorage.getItem("pig")||"{}"),d=document.documentElement;d.dataset.theme=s.theme==="dark"||(s.theme!=="light"&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";if(s.accent)d.dataset.accent=s.accent;if(s.motion)d.dataset.motion=s.motion}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="petals" aria-hidden="true"></canvas>
+<div class="veil" id="veil" aria-hidden="true"></div>
+<nav class="rail" aria-label="Navigasi utama">
+  <a class="logo" href="#/beranda">PIG</a>
+  <a href="#/beranda">Beranda</a><a href="#/profil">Profil</a><a href="#/keahlian">Keahlian</a><a href="#/proyek">Proyek</a><a href="#/rencana">Rencana</a><a href="#/kontak">Kontak</a><a href="#/pengaturan">Atur</a>
+</nav>
+
+<main>
+<section class="page" id="p-beranda" data-title="Beranda">
+  <div class="hero">
+    <header class="greet">
+      <h1 id="h1">Halo, saya Putra.</h1>
+      <p>Mahasiswa semester satu Sains Data yang sedang belajar mengubah data mentah menjadi keputusan.</p>
+      <p class="small" id="hello"></p>
+    </header>
+    <div class="blob" id="blob">
+      <img src="assets/lake.jpg" alt="" class="blob-img">
+      <div class="blob-copy">
+        <p class="small">Sedang saya kerjakan</p>
+        <h2>Dasar statistika dan Python</h2>
+        <p>Empat tahun, satu portofolio proyek nyata.</p>
+        <a class="btn" href="#/proyek">Lihat proyek</a>
+      </div>
+      <img class="mini" src="assets/profile.jpg" alt="Foto Putra Izhar Gumilar">
+    </div>
+    <aside class="widget clock"><img src="assets/sky.jpg" alt=""><div><strong id="time">--:--</strong><span>Waktu Indonesia Barat</span></div></aside>
+    <aside class="widget next"><p class="small">Target semester ini</p><strong>Dasar Python dan statistika deskriptif</strong><div class="bar"><i data-w="40"></i></div></aside>
+  </div>
+  <div class="blk rise marquee" aria-label="Alat yang saya pakai"><div class="track"><span>Python</span><span>SQL</span><span>Pandas</span><span>Jupyter</span><span>Git</span><span>JavaScript</span><span>Statistika</span><span>Colab</span><span>Python</span><span>SQL</span><span>Pandas</span><span>Jupyter</span><span>Git</span><span>JavaScript</span><span>Statistika</span><span>Colab</span></div></div>
+  <div class="blk rise stats">
+    <div class="panel"><strong data-count="1">0</strong><p>semester berjalan</p></div>
+    <div class="panel"><strong data-count="4">0</strong><p>tahun rencana belajar</p></div>
+    <div class="panel"><strong data-count="6">0</strong><p>alat dan bahasa dipelajari</p></div>
+    <div class="panel"><strong data-count="7">0</strong><p>halaman di situs ini</p></div>
+  </div>
+  <div class="blk rise"><h2>Cara saya belajar</h2>
+    <div class="cols">
+      <div class="panel"><h3>Dari dasar</h3><p>Matematika dan statistika dulu, supaya model yang nanti saya pakai bisa saya jelaskan, bukan hanya dijalankan.</p></div>
+      <div class="panel"><h3>Dicatat</h3><p>Setiap topik saya tulis ulang dengan kata sendiri. Kalau tidak bisa dijelaskan, berarti belum paham.</p></div>
+      <div class="panel"><h3>Dibuktikan</h3><p>Tiap tahap ditutup dengan proyek kecil yang bisa dibuka dan diuji orang lain.</p></div>
+    </div></div>
+  <div class="blk rise cta"><h2>Lihat hasil belajar saya sejauh ini.</h2><p>Proyek diperbarui setiap kali ada yang selesai.</p><div><a class="btn light" href="#/proyek">Buka proyek</a><a class="btn ghost" href="#/kontak">Hubungi saya</a></div></div>
+</section>
+
+<section class="page" id="p-profil" data-title="Profil">
+  <header class="phead blk rise"><h1>Profil</h1><p>Siapa saya dan ke mana arah belajar saya.</p></header>
+  <div class="blk rise split">
+    <img class="portrait" src="assets/profile.jpg" alt="Putra Izhar Gumilar">
+    <div><h2>Tentang saya</h2>
+      <p>Saya Putra Izhar Gumilar, mahasiswa Sains Data di Indonesia. Tiga sampai empat tahun ke depan saya ingin memperkuat matematika dan statistika, lalu membangun proyek yang bisa dilihat dan diuji orang lain.</p>
+      <p>Situs ini bagian dari proses itu: ruang untuk mencatat apa yang saya pelajari dan menunjukkan hasilnya.</p>
+      <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>SQL</li><li>Statistika</li></ul></div>
+  </div>
+  <div class="blk rise"><h2>Fakta singkat</h2>
+    <div class="cols">
+      <div class="panel"><h3>Studi</h3><p>Sarjana Sains Data, semester 1, Indonesia.</p></div>
+      <div class="panel"><h3>Fokus</h3><p>Statistika, pemrograman Python, dan SQL.</p></div>
+      <div class="panel"><h3>Target</h3><p>Portofolio proyek nyata dan magang di tahun ketiga atau keempat.</p></div>
+    </div></div>
+  <div class="blk rise"><h2>Prinsip kerja</h2>
+    <details><summary>Jelaskan sebelum menjalankan</summary><p>Saya menulis dulu apa yang diharapkan dari sebuah analisis, baru menjalankannya, supaya hasil yang mengejutkan benar-benar terlihat.</p></details>
+    <details><summary>Data selalu dicek asalnya</summary><p>Sumber, tanggal pengambilan, dan kelemahan dataset dicatat bersama hasil analisisnya.</p></details>
+    <details><summary>Kode harus bisa dibaca orang lain</summary><p>Nama yang jelas, langkah yang pendek, dan catatan singkat di bagian yang tidak jelas dengan sendirinya.</p></details>
+  </div>
+</section>
+
+<section class="page" id="p-keahlian" data-title="Keahlian">
+  <header class="phead blk rise"><h1>Keahlian</h1><p>Kemampuan yang sedang saya bangun dari dasar. Angka memperlihatkan posisi saat ini, bukan klaim penguasaan.</p></header>
+  <div class="blk rise cols">
+    <div class="panel"><h3>Pemrograman</h3>
+      <label>Python <b>60%</b></label><div class="bar"><i data-w="60"></i></div>
+      <label>HTML dan CSS <b>70%</b></label><div class="bar"><i data-w="70"></i></div>
+      <label>JavaScript <b>45%</b></label><div class="bar"><i data-w="45"></i></div></div>
+    <div class="panel"><h3>Data dan statistika</h3>
+      <label>Statistika dasar <b>55%</b></label><div class="bar"><i data-w="55"></i></div>
+      <label>Spreadsheet <b>65%</b></label><div class="bar"><i data-w="65"></i></div>
+      <label>SQL <b>30%</b></label><div class="bar"><i data-w="30"></i></div></div>
+    <div class="panel"><h3>Peralatan</h3><ul class="plain"><li>VS Code</li><li>Git dan GitHub</li><li>Jupyter Notebook</li><li>Google Colab</li></ul></div>
+  </div>
+  <div class="blk rise"><h2>Catatan belajar</h2>
+    <ul class="log">
+      <li><b>Python dasar</b><p>Variabel, percabangan, perulangan, dan fungsi.</p></li>
+      <li><b>Statistika deskriptif</b><p>Rata-rata, median, simpangan baku, dan membaca sebaran data.</p></li>
+      <li><b>Web dasar</b><p>Struktur HTML, layout CSS, dan interaksi JavaScript untuk situs ini.</p></li>
+    </ul></div>
+  <div class="blk rise"><h2>Berikutnya</h2><div class="chips"><span class="chipx">Pandas</span><span class="chipx">Visualisasi data</span><span class="chipx">Probabilitas</span><span class="chipx">Aljabar linear</span><span class="chipx">Git lanjutan</span></div></div>
+</section>
+
+<section class="page" id="p-proyek" data-title="Proyek">
+  <header class="phead blk rise"><h1>Proyek</h1><p>Klik kartu untuk melihat detail. Entri berlabel Contoh adalah tempat menaruh proyek berikutnya.</p></header>
+  <div class="blk rise"><div class="filters" id="filters" role="group" aria-label="Filter proyek"></div></div>
+  <div class="grid" id="grid"></div>
+  <div class="blk rise"><h2>Ide proyek berikutnya</h2>
+    <div class="cols">
+      <div class="panel"><h3>Harga pangan harian</h3><p>Visualisasi tren harga dari data terbuka pemerintah.</p></div>
+      <div class="panel"><h3>Kualitas udara kota</h3><p>Membandingkan pola polusi per jam dan per musim.</p></div>
+      <div class="panel"><h3>Prediksi nilai</h3><p>Regresi sederhana dari kebiasaan belajar, dengan data buatan sendiri.</p></div>
+    </div></div>
+</section>
+
+<section class="page" id="p-rencana" data-title="Rencana">
+  <header class="phead blk rise"><h1>Rencana empat tahun</h1><p>Urutan belajar dari fondasi sampai siap bekerja.</p></header>
+  <div class="blk rise"><ol class="road">
+    <li><h3>Tahun 1: Fondasi</h3><p>Matematika, statistika dasar, algoritma, dan Python.</p></li>
+    <li><h3>Tahun 2: Pengolahan data</h3><p>Pembersihan data, visualisasi, SQL, proyek nyata pertama.</p></li>
+    <li><h3>Tahun 3: Machine learning</h3><p>Model prediksi, dasar deep learning, kompetisi data.</p></li>
+    <li><h3>Tahun 4: Karier</h3><p>Skripsi, magang, dan portofolio yang siap dinilai.</p></li>
+  </ol></div>
+  <div class="blk rise"><h2>Cara mengukur kemajuan</h2>
+    <div class="cols">
+      <div class="panel"><h3>Proyek selesai</h3><p>Minimal satu proyek kecil per semester, lengkap dengan dokumentasi.</p></div>
+      <div class="panel"><h3>Catatan terbit</h3><p>Setiap topik besar punya satu catatan yang saya tulis sendiri.</p></div>
+      <div class="panel"><h3>Evaluasi semester</h3><p>Di akhir semester saya tinjau apa yang meleset dan menyesuaikan rencana.</p></div>
+    </div></div>
+</section>
+
+<section class="page" id="p-kontak" data-title="Kontak">
+  <header class="phead blk rise"><h1>Kontak</h1><p>Untuk diskusi, kolaborasi, atau pertanyaan seputar belajar Sains Data.</p></header>
+  <div class="blk rise cta"><h2>Mari bertukar pikiran.</h2><p>Email adalah cara tercepat menghubungi saya.</p><div><a class="btn light" href="mailto:emaillo@gmail.com">Kirim email</a><a class="btn ghost" href="https://github.com/usernamelo" rel="noopener">GitHub</a><a class="btn ghost" href="https://linkedin.com/in/usernamelo" rel="noopener">LinkedIn</a></div></div>
+  <div class="blk rise split rev">
+    <div class="panel"><h2>Bagaimana situs ini?</h2>
+      <div class="stars" id="stars" role="radiogroup" aria-label="Penilaian"></div>
+      <textarea id="comment" rows="3" maxlength="500" placeholder="Komentar atau saran (opsional)"></textarea>
+      <button class="btn" id="send">Kirim penilaian</button><p class="msg" id="msg" role="status"></p></div>
+    <div><h2>Pertanyaan umum</h2>
+      <details><summary>Apakah Anda menerima kolaborasi?</summary><p>Ya, terutama proyek data dan web tingkat pemula.</p></details>
+      <details><summary>Di mana kode proyek ditaruh?</summary><p>Di GitHub. Tautan ditambahkan setiap proyek selesai.</p></details>
+      <details><summary>Apakah data penilaian disimpan?</summary><p>Hanya angka bintang dan komentar, tanpa nama atau email.</p></details></div>
+  </div>
+</section>
+
+<section class="page" id="p-pengaturan" data-title="Pengaturan">
+  <header class="phead blk rise"><h1>Pengaturan</h1><p>Sesuaikan tampilan situs. Pilihan disimpan di perangkat ini.</p></header>
+  <div class="blk rise cols">
+    <div class="panel"><h3>Akun</h3><p id="acc">Belum masuk</p>
+      <div class="row" id="in"><button class="btn" id="login">Masuk</button><button class="btn alt" id="signup">Daftar</button></div>
+      <div class="row" id="out" hidden><button class="btn alt" id="logout">Keluar</button></div><p class="msg" id="accmsg"></p></div>
+    <div class="panel"><h3>Tema</h3><div class="seg" data-set="theme" role="radiogroup" aria-label="Tema"><button role="radio" data-v="light">Terang</button><button role="radio" data-v="dark">Gelap</button><button role="radio" data-v="auto">Otomatis</button></div>
+      <h3 class="gap">Warna aksen</h3><div class="swatches" data-set="accent" role="radiogroup" aria-label="Warna aksen"><button role="radio" data-v="sage" class="sw" style="--c:#6B7F6E" aria-label="Sage"></button><button role="radio" data-v="sky" class="sw" style="--c:#2F6FBF" aria-label="Biru"></button><button role="radio" data-v="rose" class="sw" style="--c:#B5617A" aria-label="Mawar"></button></div></div>
+    <div class="panel"><h3>Gerakan</h3><div class="seg" data-set="motion" role="radiogroup" aria-label="Animasi"><button role="radio" data-v="full">Penuh</button><button role="radio" data-v="lite">Hemat</button></div>
+      <h3 class="gap">Kelopak sakura</h3><div class="seg" data-set="petals" role="radiogroup" aria-label="Kelopak sakura"><button role="radio" data-v="on">Nyala</button><button role="radio" data-v="off">Mati</button></div></div>
+    <div class="panel"><h3>Nama tampilan</h3><input class="txt" id="name" maxlength="30" placeholder="Nama Anda"><button class="btn" id="savename">Simpan nama</button><p class="msg" id="namemsg"></p></div>
+    <div class="panel"><h3>Data di perangkat ini</h3><p>Hapus semua pilihan tampilan dan nama yang tersimpan.</p><button class="btn alt" id="reset">Hapus dan atur ulang</button></div>
+  </div>
+</section>
+</main>
+<footer>Putra Izhar Gumilar, 2026</footer>
+
+<dialog id="dlg"><div class="dimg" id="dimg"></div><div class="dbody"><h2 id="dt"></h2><p id="dd"></p><ul class="chips" id="ds"></ul><div class="row"><a class="btn" id="dl" target="_blank" rel="noopener">Buka proyek</a><button class="btn alt" id="dx">Tutup</button></div></div></dialog>
+<script src="projects.js"></script>
+<script src="script.js" defer></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
+</body>
+</html>
